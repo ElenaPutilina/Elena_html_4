@@ -1,0 +1,166 @@
+*{
+	margin: 0;
+	padding: 0;
+}
+body{
+	background-image: url(fon.png);
+	background-repeat: 100 no-repeat;
+}
+
+/*header*/
+.header{
+	width: 1000px;
+	height: 178px;
+	position: relative;
+	border-bottom: 1px solid #128aa7;
+	margin: 0px 150px;
+	background-color: #ffffff;
+	box-shadow : 0px 0px 15px 1px #000000;
+}
+div.logo{
+	width: 283px;
+	height: 163px;
+	position: absolute;
+	top: 15px;
+	bottom: 0px;
+}
+.logo{
+	width: 275px;
+	height: 150px;
+	margin-top: 6px;
+	margin-left: 15px;
+	margin-bottom: 0px;
+	border-bottom: 0px;
+}
+.contact{
+	position: absolute;
+	top: 5px;
+	left: 425px;
+	bottom: 150px;
+	border-bottom: 0px;
+}
+.countries{
+	position: absolute;
+	top: 55px;
+	left: 325px;
+	bottom: 5px;
+	border: 0px;
+}
+
+/*main*/
+
+main{
+	width: 1000px;
+	height: 805px;
+	border-bottom: 3px solid #031d28;
+	margin: 0px 150px;
+	background-color: #ffffff;
+	box-shadow : 0px 1px 15px 1px #000000;
+	position: relative;
+	overflow: hidden;
+}
+img{
+	border-bottom: 1px solid #138aa7;
+}
+/*Выпадающее меню*/
+
+
+ul{
+	display: block;
+	list-style: none;
+	border-bottom: 1px solid black;
+	}
+ul:after {
+	display: block;
+	content: '';
+	clear: both;
+	float: none;
+	background-color: #343434
+}
+.menu{
+	padding-left: 20px;
+	position:relative;
+	background-color: #343434;
+}
+ul.menu li{
+	float: left;
+	position: relative;	
+}
+ul.menu li a{
+	display: block;
+	padding: 10px 60px 10px 5px;
+	color: #ffffff;
+	text-decoration: none;
+}
+ul.submenu{
+	display: none;
+	position: absolute;
+	width: 120px;
+	top: 37px;
+	left: 0;
+	background-color: #343434;
+	border: 1px solid #343434;
+}
+ul.submenu li{
+	display: block;
+    text-decoration: none;
+    z-index: 1;
+}
+ul.submenu li a{
+	display: block;
+	padding: 5px;
+	color: #ffffff;
+	background-color: #343434;
+	text-decoration: none;
+}
+ul.submenu li a:hover{
+	text-decoration: underline;
+}
+li.first{
+	width: 100%;
+	border-top: 1px solid #000000;
+}
+ul.menu li:hover ul.submenu{
+	display: block;
+}
+
+/*Информация, Новости*/
+
+.clearfix:after{
+	display: block;
+	content: "";
+	clear: both;
+}
+h4.info{
+	width: 150px;
+	padding: 5px 10px 5px 40px;
+	color: #424c43;
+}
+.info{
+	background-color: #edeef0;
+	float: left;
+	width: 210px;
+	padding-left: 20px;
+	position: relative;
+	clear: both;
+	color: #424c43;
+}
+h4.news{
+	width: 120px;
+	padding: 5px 10px 5px 50px;
+	color: #424c43;
+}
+.news{
+	background-color: #edeef0;
+	float: right;
+	width: 210px;
+	padding-left: 20px;
+	position: relative;
+	overflow: hidden;
+	color: #424c43;
+}
+footer{
+	width: 220px;
+	margin: 5px 500px;
+}
+
